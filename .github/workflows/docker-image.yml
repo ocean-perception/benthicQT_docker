@@ -17,5 +17,3 @@ jobs:
       with:
         push: true
         tags: oceanperception/benthicqt:latest
-        secrets: |
-          GIT_AUTH_TOKEN=${{ secrets.MYTOKEN }}
