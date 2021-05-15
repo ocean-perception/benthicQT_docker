@@ -6,10 +6,19 @@
 docker pull oceanperception/benthicqt
 ```
 
-2. Run the image
+2. Clone this repository 
 
 ```
-docker run --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" --rm -it -v $(pwd):/host oceanperception/benthicqt
+git pull git@github.com:ocean-perception/benthicQT_docker.git
 ```
 
-3. The GUI should open. Open a mesh using the normal menu. Access your HOST files under /host in the current directory. If needed to access any other directories, rerun from there.
+3. Run the docker image with the folder location where your meshes are stored
+
+```
+bash run.sh /path/to/my/meshes
+```
+
+4. Open a new browser tab to open http://127.0.0.1:6080/
+5. In that browser tab desktop, open benthicQT using the icon.
+6. Navitate to `/host` to open your meshes.
+
