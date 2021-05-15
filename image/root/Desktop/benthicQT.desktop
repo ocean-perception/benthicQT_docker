@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=benthicQT
+Comment=benthicQT
+Exec=/src/benthic_qt/bin/benthicQT
+Icon=/src/benthic_qt/images/benthicQT.ico
+Type=Application
+Categories=GNOME;GTK;Utility;TerminalEmulator;System;
+StartupNotify=true
+Keywords=terminal;shell;prompt;command;commandline;

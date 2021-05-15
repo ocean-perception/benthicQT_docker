@@ -28,5 +28,5 @@ WORKDIR /src/benthic_qt/build
 RUN cmake -DCMAKE_BUILD_TYPE=Release .. && make install
 #WORKDIR /src/benthic_qt/bin
 #CMD ./benthicQT
-
+ADD image /
 ENTRYPOINT ["/startup.sh"]
